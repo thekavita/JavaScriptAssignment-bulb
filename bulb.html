@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bulb.css">
+    <title> Bulb-ON/OFF</title>
+</head>
+
+<body>
+    <h1>Bulb ON/OFF</h1>
+     
+    <div id="upper" class="container flex">
+    
+        <img class="bulboff" src="offbulb.png" alt="">
+        <div class="btn">
+            <button class="bulb-on" onclick="bulbOn()">
+                Turn ON
+            </button>
+            <button class="bulb-on" onclick="bulbOff()">
+                Turn OFF
+            </button>
+        </div>
+    </div>
+    <div id="lower" style="text-align: center;">
+        <img id="img" src="offbulb.png" alt="Bulb img"><br>
+        <button id="button" onclick="fu()">Turn OFF</button>
+    </div>
+
+
+    <script src="bulb.js"></script>
+
+
+</body>
+
+</html>
